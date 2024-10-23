@@ -1,0 +1,491 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!---font  awsome cdn link--->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <!--custom css file-->
+  <link rel="stylesheet" href="style.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+
+  <title>E Waste Management</title>
+</head>
+
+<body>
+
+  <!--Navbar start-->
+  <header id="Header-nav">
+    <nav class="navbar navbar-expand-lg navbar  " style="background-color: black;position:sticky;">
+      <h1 class="navbar-brand" href="#"><i class="fas fa-recycle"></i>E-Waste </h1>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+        style="background-color: aliceblue; width:3.5rem ; height: 3.5rem;">
+        <i class="fas fa-bars" style="color:#120e0e; font-size:28px;"></i>
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#home">Home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#service">Services</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#donate">Donate E-Waste</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="icons">
+        <i class="fas fa-envelope-square" id="email" onclick="contactform()"></i>
+        <i class="fa fa-user" id="user" onclick="signinform()"></i>
+
+      </div>
+      </div>
+    </nav>
+  </header>
+  <!--Navbar ends-->
+
+
+
+  <!--home section start -->
+
+
+  <header>
+    
+    <h1 class="animated-text" style="margin-top: 65px;">Welcome to E-Waste Management</h1>
+  </header>
+
+  <section class="main-content">
+    <img src="images/robot-with-trash-recycle-symbol.jpg" alt="E-Waste Management" class="ewaste-image">
+  </section>
+
+
+
+  </section>
+  <!--home section ends -->
+
+  <!---about section start-->
+
+  <section class="about" id="about">
+
+    <h3 class="sub-heading">about us</h3>
+    <h1 class="heading">why choose us? </h1>
+
+    <div class="card-deck d-flex">
+
+      <div class="card" style="width: 18rem;">
+        <div class="icons"><i class='fas fa-atom' style='font-size:36px'></i></div>
+        <div class="card-body">
+          <h5 class="card-title">Mission</h5>
+          <p class="card-text">Strive towards delight our customers through innovation and technology. To provide
+            best-in-class services and solutions for E-Waste recycling and conserve mother earth to harvest maximum
+            resources.</p>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <div class="icons"><i class='fas fa-eye' style='font-size:36px'></i></div>
+        <div class="card-body">
+
+          <h5 class="card-title">Vision</h5>
+          <p class="card-text">We consider E-Waste not as waste, but a resource for recovery in an environmental
+            friendly manner to protect environment. To be a benchmark solution provider in the field of environment
+            protection.</p>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;height: 31rem;">
+        <div class="icons"><i class='fas fa-bullseye' style='font-size:36px'></i></div>
+        <div class="card-body">
+          <h5 class="card-title">Goals</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+        </div>
+      </div>
+
+      <div class="card  d-flex" style="width: 18rem;height: 26rem;">
+        <div class="icons"><i class='fas fa-truck' style='font-size:36px'></i></div>
+        <div class="card-body">
+          <h5 class="card-title">Higher Convenience</h5>
+          <p class="card-text">We offer doorstep pick-up service; we are just a phone call away.</p>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <div class="icons"><i class='fas fa-eye' style='font-size:36px'></i></div>
+        <div class="card-body">
+          <h5 class="card-title">More Value</h5>
+          <p class="card-text">We buy all types of branded computers/laptops/PCs, which make the deal more
+            cost-efficient for our clients.</p>
+        </div>
+      </div>
+
+      <div class="card" style="width: 100rem;">
+        <div class="icons"><i class='fas fa-handshake' style='font-size:36px'></i></div>
+        <div class="card-body">
+          <h5 class="card-title">Better Support</h5>
+          <p class="card-text">Our team of friendly experts is always available to help you with any issues relating to
+            e-waste management..</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--about section ends-->
+
+
+
+  <!--services Section Start-->
+  <section class="service" id="service">
+    <h1 class="sub-heading">Our Services </h1>
+
+    <div class="container">
+      <div class="service-card">
+        <img src="images/collection.jpg" alt="Web Design Icon">
+        <h3>Collection</h3>
+        <p>We will see what type of E -Waste you have from the information provided by you and distribute it</p>
+      </div>
+
+      <div class="service-card">
+        <img src="images/instantpayment.jpg">
+        <h3>Instant Payment</h3>
+        <p>After Calculating the amount from the waste you have provided. That Amount will be paid to you Instantly</p>
+      </div>
+
+      <div class="service-card">
+        <img src="images/Transport.jpg"></h3>
+        <p>After calculating the amount from the waste you have provided. That amount will be Paid to you instantly</p>
+      </div>
+
+      <div class="service-card">
+        <img src="images/recycle.jpg" alt=" recycling Icon">
+        <h3>Recycling</h3>
+        <p>After collecting e_waste from customers,It is recycled by using proper Recycling method</p>
+      </div>
+
+      <div class="service-card">
+        <img src="images/disposal certificate.jpg" alt="disposal">
+        <h3>Disposal Certificate</h3>
+        <p>When the collected waste is recycled. You will be Given A Certificate onwhich your Details Have been
+          mentioned and what the</p>
+      </div>
+
+
+    </div>
+</body>
+
+</html>
+</section>
+
+<!--services Section Start-->
+
+
+
+<!---Donate  section start-->
+<section id="donate">
+  <h3 class="sub-heading" id="Donate_E">Donate E-Waste</h3>
+  <div class="row">
+    <div class="Donate_img_txt">
+      <div class="Donate_img"></div>
+      <div class="Donate_text">
+        <b><i>
+            <h2 class="Donate_head">Why Donate E-Waste?</h2>
+          </i></b>
+        <p class="Donate_txt">
+          Electronic products are made up metals, plastics, and glass, all of which require energy to mine and
+          manufacture. Donating or recycling consumer electronics conserves our natural resources and avoids air and
+          water pollution. By donating your e-waste, you can contribute to reducing the environmental impact and promote
+          recycling.
+        </p>
+        <br><br>
+        <i><b>
+            <h2 class="Donate_head">What Can You Donate?</h2>
+          </b></i>
+        <ul class="Donate_list">
+          <li>Old computers and laptops</li>
+          <li>Smartphones and tablets</li>
+          <li>Printers and scanners</li>
+          <li>TVs and monitors</li>
+          <li>Electronic accessories (keyboards, mice, cables, etc.)</li>
+        </ul>
+        <br><br>
+        <i><b>
+            <h2 class="Donate_head">Donate Now!</h2>
+          </b></i>
+        <p class="Donate_txt">
+          Help protect the environment by donating your e-waste today. Click the button below to find a donation center
+          near you. 
+        </p>
+        <button type="button" class=" btn-primary btn-lg " id="Donate_btn" type="submit" style="background-color:#166002;" onclick="donateo()">Click Here To Donate Your E_Waste</button>
+       
+      </div>
+    </div>
+  </div>
+ 
+</section>
+
+
+<!--Footer section starts-->
+
+<section class="footer">
+
+  <div class="box-container">
+    <div class="box">
+      <h3>locations</h3>
+      <a href=https://goo.gl/maps/Ga9J5XLajYzDMuc19>India</a>
+      <a href=https://goo.gl/maps/rWYsoCvMvwpag72w6> Japan</a>
+      <a href=https://goo.gl/maps/FsgqfnMSUahRUWJD8> russia</a>
+      <a href=https://goo.gl/maps/RbMBhsg8KHZohtqa9>USA</a>
+      <a href=https://goo.gl/maps/4K4Uzm51H3wbmbm49>france</a>
+    </div>
+
+    <div class="box">
+      <h3>QUICK LINKS</h3>
+      <a href="#home">home</a>
+      <a href="#about">dishes</a>
+      <a href="#service">about</a>
+      <a href="#donate">Donate E Waste</a>
+
+    </div>
+
+    <div class="box">
+      <h3>contact info</h3>
+      <a href="#">7066784426</a>
+      <a href="#">8080252106</a>
+      <a href="#">7391966672</a>
+      <a href="#">gitanjalib2004@gmail.com</a>
+      <a href="#">satara, india -415103</a>
+    </div>
+
+    <div class="box">
+      <h3>follow us</h3>
+      <a href="#">facebook</a>
+      <a href="https://twitter.com/misaltanuja?t=dadhto1yzvzez5zcphwiba&s=08">twitter</a>
+      <a href="https://www.instagram.com/tanu__misal/?utm_medium=copy_link">instagram</a>
+      <a href="https://www.linkedin.com/in/gitanjali-bhintade-bb1951227">linkedin</a>
+    </div>
+  </div>
+  <div class="credit">copyright @ 2023 by <span>RITIAN</span></div>
+
+</section>
+<!--footer section ends-->
+
+
+<!--Donate form -->
+<form action="donate.php" method="post" class="donate-form" id="donate-form">
+  <div class="container py-5 h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col-8 col-md-8 col-lg-6 col-xl-5">
+        <div class="card shadow-2-strong" style="border-radius: 1rem;">
+          <div class="card-body p-5 text-center">
+
+            <h3 class="lblsign" id="lblsign" style="font-size:large; text-decoration: solid;">Donate E-Waste Form</h3>
+
+            <div class="form-outline mb-4">
+              <input type="text" id="name" name="name" class="form-control form-control-lg" placeholder="Name" required/>
+            </div>
+
+            <div class="form-outline mb-4">
+              <input type="text" id="address" name="address" class="form-control form-control-lg" placeholder="Address" required />
+            </div>
+
+            <div class="form-outline mb-4">
+              <input type="number" id="mob" name="mob" class="form-control form-control-lg" placeholder="Mobile No." required/>
+            </div>
+            <div class="form-outline mb-4">
+              <input type="text" id="email" name="email" class="form-control form-control-lg" placeholder="Email" required/>
+            </div>
+
+            <div class="form-outline mb-4">
+              <input type="text" id="things" name="things" class="form-control form-control-lg" placeholder="What things you want to sell/donate ?" required />
+            </div>
+            <div class="form-outline mb-4">
+              <input type="date" id="datepicker" name="date" class="form-control form-control-lg" placeholder="Pickup Date" required />
+            </div>
+            <button class="btn btn-primary btn-lg btn-block" id="btn" type="submit">Submit</button>
+            
+
+            
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<i class="fas fa-times" id="close" onclick="donateclose()"></i>
+</form>
+<!--Donate form end-->
+
+
+
+
+
+
+
+
+
+
+
+
+<!--contact form -->
+<form action="contact.php" method="post" class="contact-form" id="contact-form">
+  <div class="container py-5 h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col-8 col-md-8 col-lg-6 col-xl-5">
+        <div class="card shadow-2-strong" style="border-radius: 1rem;">
+          <div class="card-body p-5 text-center">
+
+            <h3 class="lblsign" id="lblsign" style="font-size:large; text-decoration: solid;">Contact form</h3>
+
+            <div class="form-outline mb-4">
+              <input type="fname" id="text" name="name" class="form-control form-control-lg" placeholder="Name" />
+
+            </div>
+            <div class="form-outline mb-4">
+              <input type="email" id="typeEmailX-2" name="email" class="form-control form-control-lg"
+                placeholder="Email" />
+            </div>
+            <div class="form-outline mb-4">
+              <textarea id="text" name="message" class="form-control form-control-lg" placeholder="Message" rows="6" cols="8"></textarea>
+
+            </div>
+            <button type="submit" class=" btn-primary btn-lg btn-block" id="btn" type="submit">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <i class="fas fa-times" id="close" onclick="closecontactform()"></i>
+</form>
+<!--Contact form end-->
+
+<!--Sign in form -->
+<form action="login.php" method="post" class="signin-form" id="signin-form">
+  <div class="container py-5 h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col-8 col-md-8 col-lg-6 col-xl-5">
+        <div class="card shadow-2-strong" style="border-radius: 1rem;">
+          <div class="card-body p-5 text-center">
+
+            <h3 class="lblsign" id="lblsign" style="font-size:large; text-decoration: solid;">Login form</h3>
+            <div>
+              <button type="button" class="btn btn-primary" id="btn"
+                style="padding-left: 5rem;padding-bottom:1rem ;padding-right:5rem; padding-top: 1rem;">Login</button>
+              <button type="button" class="btn btn-primary" id="btn"
+                style="padding-left: 4rem;padding-bottom:1rem ;padding-right:4rem; padding-top: 1rem;"
+                onclick="openregform()">Sign Up</button>
+            </div>
+            <div class="form-outline mb-4">
+              <input type="text" id="typeEmailX-2" name="username" class="form-control form-control-lg"
+                placeholder="Username" required />
+            </div>
+
+            <div class="form-outline mb-4">
+              <input type="password" id="typePasswordX-2" name="password" class="form-control form-control-lg"
+                placeholder="Password" required />
+
+            </div>
+
+            <!-- Forgot password -->
+            <div class="form-check d-flex justify-content-start mb-4">
+              <a href="">Forgot password ?</a>
+            </div>
+
+            <button class="btn btn-primary btn-lg btn-block" id="btn" type="submit" onclick="reopen() ">Login</button>
+            <h4>Not registered? <a href="#reg-form" onclick=" openregform()"> Create an Account</a></h4>
+
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <i class="fas fa-times" id="close" onclick="closesigninform()"></i>
+</form>
+<!--Sign in form end-->
+
+<!--Registration form -->
+<form action="save_data.php" method="post" class="reg-form" id="reg-form">
+  <div class="container py-5 h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col-8 col-md-8 col-lg-6 col-xl-5">
+        <div class="card shadow-2-strong" style="border-radius: 1rem;">
+          <div class="card-body p-5 text-center">
+
+            <h3 class="lblsign" id="lblsign" style="font-size:large; text-decoration: solid;">Registration form</h3>
+           
+            <div class="form-outline mb-4">
+              <input type="text" id="username" name="username" class="form-control form-control-lg" placeholder="Username" required />
+            </div>
+
+            <div class="form-outline mb-4">
+              <input type="text" id="name" name="name" class="form-control form-control-lg" placeholder="Name" required/>
+
+            </div>
+
+            <div class="form-outline mb-4">
+              <input type="text" id="address" name="address" class="form-control form-control-lg" placeholder="Address" required />
+            </div>
+
+            <div class="form-outline mb-4">
+              <input type="number" id="mob" name="mob" class="form-control form-control-lg" placeholder="Mobile No." required/>
+            </div>
+            <div class="form-outline mb-4">
+              <input type="text" id="email" name="email" class="form-control form-control-lg" placeholder="Email" required/>
+            </div>
+
+            <div class="form-outline mb-4">
+              <input type="password" id="password" name="password" class="form-control form-control-lg" placeholder="Password" required/>
+              
+            </div>
+
+            
+            <button class="btn btn-primary btn-lg btn-block" id="btn" type="submit">Sign Up</button>
+            <h4>Already registered? <a href="#signin-form" onclick="signinform()"> Login</a></h4>
+
+            
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<i class="fas fa-times" id="close" onclick="closeregform()"></i>
+</form>
+<!--Registration form end-->
+
+
+
+
+
+
+<script src="script.js"> </script>
+</body>
+
+</html>
